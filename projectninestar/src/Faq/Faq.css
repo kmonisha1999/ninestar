@@ -1,0 +1,13 @@
+.faq{
+	background-color:#fef8f5;
+	padding-bottom:50px;
+}
+.accordion-item{
+	background-color:#FEF8F5;
+}
+.accordion-button{
+	background-color:#FEF8F5!important;
+}
+.accordion-button:hover{
+	color:#c54811;
+}

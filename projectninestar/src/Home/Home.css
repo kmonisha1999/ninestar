@@ -1,0 +1,50 @@
+*{
+    margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:'Raleway', sans-serif;
+}
+.gs{
+	background-color:#eb5d1e;
+	border-radius:20px;
+	border:none;
+	color:white;
+}
+.alink:hover{
+	color:#eb5d1e !important;
+} 
+.homeimg img{
+	width:100%;
+	height:auto;
+	position:relative;
+	animation:move 3s infinite;
+}
+@keyframes move {
+    from{
+      top:0px;
+      }
+    to{
+      top: 40px;
+      }
+  }
+  .home{
+      background-color:#fef8f5;
+      padding-top:5rem;
+      padding-bottom:5rem;
+      border-bottom: 2px solid #fcebe3;
+      font-family:'Raleway', sans-serif;
+  }
+  .homep h1{
+      font-size:55px;
+  }
+  .homep h2{
+      font-size:25px;
+      margin-top:15px;
+      line-height:1.5;
+  }
+  .homep button{
+      font-size:18px;
+      border-radius:0px;
+  }

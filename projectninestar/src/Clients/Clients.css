@@ -1,0 +1,15 @@
+.clients{
+	background-color:#fef8f5;
+	padding-bottom:50px;
+}
+.caro{
+	width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.car{
+	width:50%;
+} 
+.car img{
+    width:70%;
+}

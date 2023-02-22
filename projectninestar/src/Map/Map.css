@@ -1,0 +1,93 @@
+.icon{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#fdf1ec;
+}
+.icon:hover{
+	background-color:#ed5d1e;
+}
+.icon:hover iconify-icon{
+	color:white;
+}
+.para{
+	line-height:1.5;
+	margin-left:15px;
+}
+.york{
+	border-top:3px solid #eb5d1e;
+	border-bottom:3px solid #eb5d1e;
+}
+.para h1{
+	font-size:20px;
+	color:#7a6960;
+}
+.para p{
+	font-size:16px;
+	color:#ab9d95;
+}
+.icon iconify-icon{
+	font-size:25px;
+	color:#eb5d1e;
+}
+.add{
+	padding-bottom:4rem;
+	padding-top:4rem;
+}
+
+.hold input{
+    width:100%;
+	border-radius:0px;
+}
+.sub input{
+	border-radius:0px;
+}
+.sub textarea{
+	border-radius:0px;
+}
+.prime{
+	text-align:center;
+}
+.prime button{
+	background-color:#eb5d1e;
+	border:none;
+}
+.prime button:hover{
+	background-color:#ef7f4d;
+}
+.letter{
+    padding-top:50px;
+    padding-bottom:50px;
+	background-color:#fdf1ec;
+	text-align:center;
+}
+.our h4{
+	font-size:22px;
+	font-weight:600;
+}
+.our p{
+    margin-top:20px;
+}
+.mail{
+	margin-top:20px;
+}
+.mail input{
+	/* height:40px; */
+	/* width:40%; */
+	padding:10px;
+	border:none;
+}
+.mail a{
+	text-decoration:none;
+	padding:10px 15px 10px 15px;
+	color:white;
+	border-radius:5px;
+	background-color:#eb5d1e;
+}
+.sec{
+    border-top:3px solid #eb5d1e; 
+    border-bottom:3px solid #eb5d1e; 
+}

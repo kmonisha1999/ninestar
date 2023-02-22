@@ -1,0 +1,65 @@
+.team{
+	padding-bottom:4rem;
+	padding-top:4rem;
+}
+.tm{
+	position:relative;
+	width:100%;
+}
+.teaminfo{
+	width:100%;
+	height:auto;
+}
+.teamname{
+	color:white;
+	padding-top:80%;
+	line-height:1.5;
+}
+.teamname h1{
+	font-size:20px;
+}
+.teamname p{
+	font-size:16px;
+	font-style:italic;
+}
+.teamname{
+	position:absolute;
+	opacity:0;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	text-align:center;
+	background:linear-gradient(0deg, rgba(78, 64, 57,0.95)0%, rgba(78, 64,57,0.95)15%, rgba(255, 255, 255, 0)100%); 
+}
+.tm:hover .teamname{
+	opacity:1;
+	transition:1s ease;
+}
+.teamicon{
+	width:50px;
+	display:flex;
+	flex-direction:column;
+	transition:width 0.4s;
+}
+.teamicon{
+	position:absolute;
+	opacity:0;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:#4e403987;
+}
+.teamicon iconify-icon{
+	padding:15px;
+	font-size:25px;
+	color:white;
+    cursor: pointer;
+}
+.tm:hover .teamicon{
+	opacity:1;
+}
+.teamicon iconify-icon:hover{
+	color:#ef7f4d;
+}

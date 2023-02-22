@@ -1,0 +1,66 @@
+.links{
+    padding-top:70px;
+    padding-bottom:70px;
+	background-color:white;
+}
+.links .col h4{
+	font-size:19px;
+	font-weight:600;
+}
+.call1 h1{
+	font-size:20px;
+	font-weight:600;
+	padding-bottom:30px;
+}
+.call1{
+    color:#5c5c5c;
+}
+.useful{
+    color:#5c5c5c;
+}
+.media{
+    color:#5c5c5c; 
+    cursor:pointer;
+}
+.naa{
+    justify-content:space-between;
+}
+.media h4{
+    font-size:19px; 
+    font-weight:600;
+}
+.useful ul li{
+	padding-bottom:20px;
+}
+.useful li{
+    list-style: none;
+}
+.useful a{
+	text-decoration:none;
+	font-size:14px;
+	color:#5c5c5c;
+}
+.useful iconify-icon{
+	color:#eb5d1e;
+}
+.useful h4{
+	font-size:19px;
+	font-weight:600;
+}
+.twit{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	background-color:#eb5d1e;
+	margin-left:5px;
+}
+.twit iconify-icon{
+	font-size:20px;
+}
+.twit:hover{
+	background-color:#ef7f4d;
+}

@@ -1,0 +1,89 @@
+.pb{
+	text-align:center;
+	margin:30px 0px 30px 0px;
+}
+.pb a{
+	padding:10px;
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+	cursor:pointer;
+}
+.pb a:hover{
+	color:#eb5d1e;
+}
+.all img{
+	width:100%;
+	border-radius:3%;
+}
+.all{
+	position:relative;
+	width:100%;
+	margin-top:2rem;
+}
+.all::before{
+	content: "";
+	position: absolute;
+	width: 0%;
+	background-color: #8d808080;
+	top: 0px;
+	right: 0px;
+	transition: all 0.4s;
+	color:white;
+	border-radius:3%;
+}
+.all:hover::before{
+	width: 100%;
+	bottom: 0px;
+}
+.appicon{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:20%;
+	gap:10px;
+	text-align:center;
+}
+.app1{
+	position:absolute;
+	text-align:center;
+	top:0;
+	bottom:0;
+	right:100%;
+	left:0;
+	opacity: 0;
+	width:100%;
+	border-radius:3%;
+}
+.app1:hover{
+	opacity:1;
+	transition:1s ease;
+}
+.app1 h3{
+	color:white;
+	font-size:25px;
+	margin-top:25px;
+}
+.app1 p{
+	color:white;
+	margin-top:10px;
+}
+.appicon1{
+	border-radius:50%;
+	height:40px;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:20px;
+	background-color:white;
+	color:#F89050;
+}
+.appicon1:hover{
+	background-color:#F89050;
+	color:white;
+}
+.portfolio{
+	padding-top:4rem;
+	padding-bottom:4rem;
+}

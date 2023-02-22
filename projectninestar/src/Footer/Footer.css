@@ -1,0 +1,38 @@
+.footer{
+    padding-top:30px;
+    padding-bottom:30px;
+	background-color:#fdf1ec;
+}
+.copy{
+	display:flex;
+	justify-content:space-between;
+}
+.right h1, p{
+	font-size:15px;
+}
+.right span{
+	cursor:pointer;
+}
+.right span{
+    color:#eb5d1e;
+}
+@media(min-width:375px){
+	.copy{
+		display:block;
+		text-align:center;
+	}
+}
+@media(min-width:768px){
+	.copy{
+		display:flex;
+		justify-content:space-between;
+	}
+	.hold{
+	width:48%;
+}
+.name{
+	display:flex;
+	justify-content:space-between;
+}
+
+}
